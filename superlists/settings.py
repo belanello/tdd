@@ -22,7 +22,7 @@ if 'DJANGO_DEBUG_FALSE' in os.environ:
 else:
     DUBUG = True
     SECRET_KEY = 'insecure-key-for-dev'
-    ALLOWED_HOSTS = []
+    ALLOWED_HOSTS = ['*']
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
